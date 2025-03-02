@@ -1,7 +1,6 @@
 import axios from 'axios';
 import { HfInference } from "@huggingface/inference";
 import { PromptTemplate, UserPromptInput } from '../types';
-import dotenv from 'dotenv';
 
 // Load environment variables from .env file
 dotenv.config();
